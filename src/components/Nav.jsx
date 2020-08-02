@@ -6,6 +6,11 @@ class Nav extends Component {
         return ( 
             <nav className="navbar navbar-expand-lg navbar-light bg-info">
                 <div className="collapse navbar-collapse" id="navbarNav">
+                
+              <img src="https://res.cloudinary.com/deborahao/image/upload/v1596373598/todolist_icon-removebg-preview_h4jjuy.png" 
+              width = "100" height = "60" alt ="Logo of the todo app" className="navbar-brand"/>
+            
+                <Link to="/" className="navbar-brand text-white">MERN-Stack Todo App</Link>
                     <ul className="navbar-nav mx-auto">
                     
                     <li className="nav-item active">

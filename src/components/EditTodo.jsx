@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import '../index.css'
 
 class EditTodo extends Component {
     constructor(props) {
         super(props)
-
         this.state = {
             todo_description: '',
             todo_responsible: '',
@@ -52,7 +50,7 @@ class EditTodo extends Component {
 
     onChangeTodoCompleted(event) {
         this.setState({
-            todo_completed: !this.state.todo_completed
+            todo_completed: event.target.checked
         });
     }
 
@@ -79,21 +77,20 @@ class EditTodo extends Component {
             <div>
                 <h3 align="center">Update Todo</h3>
                 <form onSubmit={this.onSubmit}>
-
                     <div className="form-group"> 
                         <label>Description: </label>
                         <input  type="text"
                                 className="form-control"
-                                value={this.state.todo_description}
+                                defaultValue={this.state.todo_description}
                                 onChange={this.onChangeTodoDescription}
                                 />
                     </div>
-
                     <div className="form-group">
                         <label>Responsible: </label>
-                        <input  type="text" 
+                        <input 
+                                type="text" 
                                 className="form-control"
-                                value={this.state.todo_responsible}
+                                defaultValue={this.state.todo_responsible}
                                 onChange={this.onChangeTodoResponsible}
                                 />
                     </div>
@@ -132,19 +129,20 @@ class EditTodo extends Component {
                             <label className="form-check-label">High</label>
                         </div>
                     </div>
-                    <div className="form-check">
+
+                    {/* <div className="form-check">
                         <input  className="form-check-input"
                                 id="completedCheckbox"
                                 type="checkbox"
                                 name="completedCheckbox"
                                 onChange={this.onChangeTodoCompleted}
                                 checked={this.state.todo_completed}
-                                value={this.state.todo_completed}
+                                
                                 />
                         <label className="form-check-label" htmlFor="completedCheckbox">
                             Completed
                         </label>                        
-                    </div>
+                    </div> */}
 
                     <br />
 
