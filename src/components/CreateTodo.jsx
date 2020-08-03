@@ -14,24 +14,20 @@ class CreateTodo extends Component {
             todo_completed: false
         }
 
-        this.onChangeTodoDescription = this.onChangeTodoDescription.bind(this);
-        this.onChangeTodoResponsible = this.onChangeTodoResponsible.bind(this);
-        this.onChangeTodoPriority = this.onChangeTodoPriority.bind(this);
-        this.onSubmit = this.onSubmit.bind(this);
     }
 
     //update state of properties
-    onChangeTodoDescription(event) {
+    onChangeTodoDescription =(event) =>{
         this.setState({ todo_description: event.target.value})
     }
-    onChangeTodoResponsible(event) {
+    onChangeTodoResponsible =(event) =>{
         this.setState({ todo_responsible: event.target.value})
     }
-    onChangeTodoPriority(event) {
+    onChangeTodoPriority =(event) =>{
         this.setState({ todo_priority: event.target.value})
     }
 
-    onSubmit(event) {
+    onSubmit =(event) =>{
         event.preventDefault()
 
         console.log('Form Submitted')

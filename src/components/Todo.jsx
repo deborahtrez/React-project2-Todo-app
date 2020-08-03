@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import '../index.css'
 
 class Todo extends Component {
     render() { 
@@ -8,7 +9,7 @@ class Todo extends Component {
             //     <table className='table'>
             //         <thead className='thead-dark'>
                         <tr>
-                            <td className={this.props.todo.todo_completed ? 'completed' : ''}> {this.props.todo.todo_description} </td>
+                            <td className={this.props.todo.todo_completed ? 'completed' : ''}>{this.props.todo.todo_description}</td>
                             <td className={this.props.todo.todo_completed ? 'completed' : ''}>{this.props.todo.todo_responsible}</td>
                             <td className={this.props.todo.todo_completed ? 'completed' : ''}>{this.props.todo.todo_priority}</td>
                             <td>

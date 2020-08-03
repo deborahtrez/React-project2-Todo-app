@@ -7,11 +7,20 @@
 #     "todo_priority": "Medium"
 # }
 
-POST http://localhost:8000/todos/edit/5f205b1f1248850760761396
-# Content-Type: application/json 
+POST http://localhost:8000/auth/login http/1.1
+Content-Type: application/json 
 
-{ 
-     "todo_description": "My first todo",
-     "todo_responsible": "Aanyu Deborah",
-     "todo_priority": "Medium"   
+{
+     
+     "email": "akoledith@gmail.com",
+     "password": "akoledith123"
 }
+
+# POST http://localhost:8000/todos/edit/5f205b1f1248850760761396
+# # Content-Type: application/json 
+
+# { 
+#      "todo_description": "My first todo",
+#      "todo_responsible": "Aanyu Deborah",
+#      "todo_priority": "Medium"   
+# }

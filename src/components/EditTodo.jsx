@@ -50,7 +50,7 @@ class EditTodo extends Component {
 
     onChangeTodoCompleted(event) {
         this.setState({
-            todo_completed: event.target.checked
+            todo_completed: event.target.value
         });
     }
 
@@ -130,7 +130,7 @@ class EditTodo extends Component {
                         </div>
                     </div>
 
-                    {/* <div className="form-check">
+                    <div className="form-check">
                         <input  className="form-check-input"
                                 id="completedCheckbox"
                                 type="checkbox"
@@ -142,7 +142,7 @@ class EditTodo extends Component {
                         <label className="form-check-label" htmlFor="completedCheckbox">
                             Completed
                         </label>                        
-                    </div> */}
+                    </div> 
 
                     <br />
 

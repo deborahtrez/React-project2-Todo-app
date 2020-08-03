@@ -33,7 +33,7 @@ router.post('/create', (request, response) => {
 router.post('/edit:id', (request, response) => {
     todomodel.findById(request.params.id)
     .then(todolist => {
-        todolist.todo_description = request.body.description,
+        todolist.todo_description = request.body.todo_description,
         todolist.todo_responsible = request.body.todo_responsible,
         todolist.todo_priority = request.body.todo_priority
 
