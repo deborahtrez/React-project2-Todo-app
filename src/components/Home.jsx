@@ -31,10 +31,10 @@ class Home extends Component {
                     </div>
                 </section>
 
-                <section class="content-section bg-info text-white">
-                    <div class="container text-center">
-                        <h2 class="mb-4">Already have an account? Login to create new Todo List</h2>
-                        <Link to='/Login' class="btn btn-xl btn-light mr-4">Login</Link>
+                <section className="content-section bg-info text-white">
+                    <div className="container text-center">
+                        <h2 className="mb-4">Already have an account? Login to create new Todo List</h2>
+                        <Link to='/Login' className="btn btn-xl btn-light mr-4">Login</Link>
                     </div>
             </section>
             </div>

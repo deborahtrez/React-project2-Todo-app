@@ -62,7 +62,7 @@ class Signup extends Component {
                     </div>
 
                     <div className ="form-group">
-                        <div class="maxl">
+                        <div className="maxl">
                             <label class="radio inline"> 
                                 <input type="radio" name="gender" value="male" checked={this.state.gender==='male'} onChange={this.onChangegender}/>
                                 <span> Male </span> 
