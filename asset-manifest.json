@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-project2-Todo-app/static/css/main.7932814c.chunk.css",
+    "main.js": "/React-project2-Todo-app/static/js/main.c3cf2214.chunk.js",
+    "main.js.map": "/React-project2-Todo-app/static/js/main.c3cf2214.chunk.js.map",
+    "runtime-main.js": "/React-project2-Todo-app/static/js/runtime-main.a10b73c3.js",
+    "runtime-main.js.map": "/React-project2-Todo-app/static/js/runtime-main.a10b73c3.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/React-project2-Todo-app/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5b0d2426.chunk.js": "/React-project2-Todo-app/static/js/2.5b0d2426.chunk.js",
+    "static/js/2.5b0d2426.chunk.js.map": "/React-project2-Todo-app/static/js/2.5b0d2426.chunk.js.map",
+    "index.html": "/React-project2-Todo-app/index.html",
+    "precache-manifest.3f40dbe44716fbda87d4bdeda98adb0e.js": "/React-project2-Todo-app/precache-manifest.3f40dbe44716fbda87d4bdeda98adb0e.js",
+    "service-worker.js": "/React-project2-Todo-app/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/React-project2-Todo-app/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.7932814c.chunk.css.map": "/React-project2-Todo-app/static/css/main.7932814c.chunk.css.map",
+    "static/js/2.5b0d2426.chunk.js.LICENSE.txt": "/React-project2-Todo-app/static/js/2.5b0d2426.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React-project2-Todo-app/static/media/bg-masthead.c934a8a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a10b73c3.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.5b0d2426.chunk.js",
+    "static/css/main.7932814c.chunk.css",
+    "static/js/main.c3cf2214.chunk.js"
+  ]
+}
